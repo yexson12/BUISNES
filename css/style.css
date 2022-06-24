@@ -365,10 +365,11 @@ transition: 0.1s all;
     z-index: 20;
     background-color: rgb(255, 255, 255);
   }
-  .row  .verde .a .btn{
-    margin: 50px;
-    background-color: #D10024;
+  .row  .verde  .btn{
+   
+    
   }
+  
   /*jiiiiiiiiiii*/
 
 /*** Testimonial ***/
