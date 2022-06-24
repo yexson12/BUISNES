@@ -353,7 +353,7 @@
   transition: 0.2s all;
 }
 
-<<<<<<< HEAD
+
 .product-item .add-to-cart .add-to-cart-btn > i {
   position: absolute;
   left: 0;
@@ -390,7 +390,7 @@
 }
 
 /*jiiiiiiiiiii*/
-=======
+
   .Boton-F{
     position: relative;
     z-index: 20;
@@ -405,7 +405,7 @@
   }
   
   /*jiiiiiiiiiii*/
->>>>>>> 3cb43c26da27a566edcecfc4e982e1db886a4f78
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item img {
