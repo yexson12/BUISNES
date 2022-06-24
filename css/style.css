@@ -353,6 +353,7 @@
   transition: 0.2s all;
 }
 
+<<<<<<< HEAD
 .product-item .add-to-cart .add-to-cart-btn > i {
   position: absolute;
   left: 0;
@@ -389,6 +390,22 @@
 }
 
 /*jiiiiiiiiiii*/
+=======
+  .Boton-F{
+    position: relative;
+    z-index: 20;
+    background-color: rgb(255, 255, 255);
+  }
+  .row  .verde  {
+   
+    margin-top: 55px;
+    border: solid 2px rgb(52, 22, 189);
+    text-align: center;
+    background-color: greenyellow;
+  }
+  
+  /*jiiiiiiiiiii*/
+>>>>>>> 3cb43c26da27a566edcecfc4e982e1db886a4f78
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item img {
