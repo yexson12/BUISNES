@@ -365,9 +365,12 @@ transition: 0.1s all;
     z-index: 20;
     background-color: rgb(255, 255, 255);
   }
-  .row  .verde  .btn{
+  .row  .verde  {
    
-    
+    margin-top: 55px;
+    border: solid 2px rgb(52, 22, 189);
+    text-align: center;
+    background-color: greenyellow;
   }
   
   /*jiiiiiiiiiii*/
