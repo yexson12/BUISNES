@@ -78,7 +78,13 @@
 								<span class="badge badge-success">4</span>
 							</a>
 						</li>
-						
+						<li class="nav-item">
+							<a href="../login1/php/cerrar_sesion.php">
+								<i class="fas fa-desktop"></i>
+								<p>CERRAR SECION</p>
+								
+							</a>
+						</li>
 						
 						
 					</ul>

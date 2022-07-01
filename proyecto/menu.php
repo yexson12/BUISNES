@@ -174,7 +174,7 @@
 							</ul>
 						</li>
 						<li class="nav-item dropdown hidden-caret">
-							<a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+							<a class="nav-link" data-toggle="dropdown" href="../proyecto/jqvmap.php" aria-expanded="false">
 								<i class="fas fa-layer-group"></i>
 							</a>
 							<div class="dropdown-menu quick-actions quick-actions-info animated fadeIn">

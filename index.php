@@ -257,11 +257,26 @@
                     <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
                   </small>
                   <small class="w-50 text-center py-2">
-                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                    <a class="text-body" href="login1/php/validar.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                   </small>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="add-to-cart">
-                  <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>AÑADIR</button>
+                <a href="login1/php/validar.php">
+                  <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"  ></i>AÑADIR</button>
+                  </a>
                 </div>
               </div>
             </div>
