@@ -40,11 +40,6 @@ select * from usuarios
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nombre_completo`, `correo`, `usuario`, `contrasena`) VALUES
-(13, 'cv', 'cv', 'cv', '075ce653ba97c23d07fb5a9903d2bb25a2c883ca4c5692ab0a269b02e37794dc0109f3c3b325c39a3b426df6ac173fc84ae2d4cc42ab68f9e53c7bb17d0a3ec1'),
-(14, 'renzo', 'renzo@hotmail.com', '123', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2'),
-(15, 'yexson', 'yexson@hotmail.com', 'yexson', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2'),
-(16, '', '', '', 'cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e');
 
 --
 -- Índices para tablas volcadas
