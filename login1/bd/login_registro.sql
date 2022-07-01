@@ -26,15 +26,16 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `usuarios`
 --
-
-CREATE TABLE `usuarios` (
-  `id` int(11) NOT NULL,
-  `nombre_completo` varchar(50) NOT NULL,
-  `correo` varchar(50) NOT NULL,
-  `usuario` varchar(50) NOT NULL,
-  `contrasena` varchar(150) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
+use bd_buisnes
+CREATE TABLE usuarios (
+  id int(11) NOT NULL,
+  nombre_completo varchar(50) NOT NULL,
+  correo varchar(50) NOT NULL,
+  usuario varchar(50) NOT NULL,
+  contrasena varchar(150) NOT NULL,
+  estado int(1) null default 1
+) 
+select * from usuarios
 --
 -- Volcado de datos para la tabla `usuarios`
 --
@@ -65,7 +66,3 @@ ALTER TABLE `usuarios`
 ALTER TABLE `usuarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
