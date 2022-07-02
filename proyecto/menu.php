@@ -1,6 +1,9 @@
 <?php
-    include 'head.php' 
+    include 'head.php' ;
     ?>
+	
+
+
 	<div class="wrapper">
 		<div class="main-header">
 			<!-- Logo Header -->

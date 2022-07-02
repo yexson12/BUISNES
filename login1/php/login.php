@@ -18,12 +18,12 @@ if (mysqli_num_rows($validar_login) > 0){
     exit;}
     else if (mysqli_num_rows($validar_estado) > 0){
       $_SESSION['usuario'] = $correo;
-      header("location:../../index.php");
+      header("location:../../PRODUCTO.php");
       exit;
 }else{
     echo'
       <script>
-      head.location = "../index.php";
+      window.location =  "../index.php";
       alert("El usuario no existe, por favor verifique los datos introducidos");
 
       </script>

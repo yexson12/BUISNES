@@ -1,11 +1,8 @@
-
-
 <?php
 require 'productos/empleados.php';
 ?>
 
 <?php
-include 'controlsecion.php';
 include 'head.php';
 include 'menu.php'
 ?>
@@ -42,7 +39,7 @@ include 'menu.php'
 
                                                 <div class="form-group  col-md-4">
                                                     <label for="Nombre">Nombre:</label>
-                                                    <input type="text" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['Nombre'])) ? "is-invalid" : ""; ?>" required name="Nombre" placeholder="NOMBRE DEL PRODUCTO" id="Nombre" require="" value="<?php echo $Nombre; ?>">
+                                                    <input type="text" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['Nombre'])) ? "is-invalid" : ""; ?>" required name="Nombre" placeholder="" id="Nombre" require="" value="<?php echo $Nombre; ?>">
                                                     <div class="invalid-feedback">
                                                         <?php echo (isset($error['Nombre'])) ? $error['Nombre'] : ""; ?>"
                                                     </div>
@@ -50,7 +47,7 @@ include 'menu.php'
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label for="descripcion">Descripcion:</label>
-                                                    <input type="text" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['descripcion'])) ? "is-invalid" : ""; ?>" required name="descripcion" placeholder="DESCRIPCION DEL PRODUCTO" id="descripcion" require="" value="<?php echo $descripcion; ?>">
+                                                    <input type="text" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['descripcion'])) ? "is-invalid" : ""; ?>" required name="descripcion" placeholder="" id="descripcion" require="" value="<?php echo $descripcion; ?>">
                                                     <div class="invalid-feedback">
                                                         <?php echo (isset($error['descripcion'])) ? $error['descripcion'] : ""; ?>
                                                     </div>
@@ -58,7 +55,7 @@ include 'menu.php'
                                                 </div>
                                                 <div class="form-group col-md-4">
                                                     <label for="precio">Precio:</label>
-                                                    <input type="number" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['precio'])) ? "is-invalid" : ""; ?>" required name="precio" placeholder="PRECIO SIN DESCUENTO" id="precio" require="" value="<?php echo $precio; ?>">
+                                                    <input type="number" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['precio'])) ? "is-invalid" : ""; ?>" required name="precio" placeholder="" id="precio" require="" value="<?php echo $precio; ?>">
                                                     <div class="invalid-feedback">
                                                         <?php echo (isset($error['precio'])) ? $error['precio'] : ""; ?>
                                                     </div>
@@ -66,7 +63,7 @@ include 'menu.php'
                                                 </div>
                                                 <div class="form-group col-md-12">
                                                     <label for="stock">stock:</label>
-                                                    <input type="number" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['stock'])) ? "is-invalid" : ""; ?>" required name="stock" placeholder="PRECIO CON DESCUENTO" id="stock" require="" value="<?php echo $stock; ?>">
+                                                    <input type="number" style="background-color:#dee2e4;color:black;" class="form-control <?php echo (isset($error['stock'])) ? "is-invalid" : ""; ?>" required name="stock" placeholder="stock" id="stock" require="" value="<?php echo $stock; ?>">
                                                     <div class="invalid-feedback">
                                                         <?php echo (isset($error['stock'])) ? $error['stock'] : ""; ?>
                                                     </div>
@@ -107,11 +104,11 @@ include 'menu.php'
                                         <th>Nombre Producto</th>
                                         <th>decripcion</th>
                                         <th>precio</th>
-                                        <th>Precio_Descuento</th>
-                                        <th>Operaciones</th>
+                                        <th>stock</th>
+                                        <th>stock</th>
                                     </tr>
                                 </thead>
-                        <!-- <tbody> -->
+                                <!-- <tbody> -->
 
                                 <?php foreach ($listaEmpleados as $empleado) { ?>
 

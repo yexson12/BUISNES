@@ -85,7 +85,7 @@ require 'proyecto/productos/productos.php';
             </div>
           </div>
           <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-          <a href="login1/php/bienvenida.php" class="nav-item nav-link active">ABRIR SECCION</a>
+          <a href="login1/php/cerrar_sesion.php" class="nav-item nav-link active">CERRAR SECCION</a>
         </div>
         <div class="d-none d-lg-flex ms-2">
           <a class="btn-sm-square bg-white rounded-circle ms-3" href="">

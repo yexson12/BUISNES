@@ -11,14 +11,5 @@ if(!isset($_SESSION['usuario'])){
     exit();
 }
 
-else{
 
-    echo'
-    <script>
-    window.location =  "../../producto.php";
-    </script>
-  ';
-
-}
 ?>
-

@@ -1,7 +1,19 @@
 <?php
+include 'controlsecion.php';
 include 'head.php';
 include 'menu.php'
 ?>
+<?php
+session_start();
+
+if(!isset($_SESSION['usuario'])){
+    echo'
+    <script>
+    window.location =  "../index.php";
+    </script';
+    session_destroy();
+    exit();
+}?>
 
 <!-- End Sidebar -->
 
